@@ -1,0 +1,260 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 20px;
+    /* background-color: #f8f8f8; */
+    /* border: 2px solid black; */
+    height: 70px;
+    /* gap:20px; */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo img{
+    height: 60px;
+}
+.search{
+    /* border:2px solid black; */
+    width:800px;
+    height: 60px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+}
+.search input{
+    border:2px solid black;
+    width: 800px;
+    border-radius: 30px;
+    height:60px;
+    margin-left: 10px;
+}
+.profile{
+    margin-left:15%;
+}
+.section1{
+    display: flex;
+    height: 650px;
+    /* border:2px solid black; */
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* gap:10px; */
+}
+.section1 div{
+    border:2px solid black;
+    /* height: 250px;
+    width: 240px; */
+}
+.div1{
+    /* padding:10px; */
+    border-radius: 10px;
+    margin:10px;
+    width: 154px;
+    height: 150px;
+    overflow: hidden;
+    margin-left:5%;
+}
+.div1 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div2 {
+    border-radius: 10px;
+    margin:10px;
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+}
+.div2 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div3,.div14 {
+    border-radius: 10px;
+    margin:10px;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+.div3 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div4,.div14 {
+    border-radius: 10px;
+    margin:10px;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+.div4 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div5,.div15 {
+    border-radius: 10px;
+    margin:10px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+.div5 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div6,.div16 {
+    border-radius: 10px;
+    margin:10px;
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+}
+.div6 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div7{
+    border-radius: 10px;
+    margin:10px;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    margin-left: 10%;
+}
+.div7 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div8,.div18 {
+    border-radius: 10px;
+    margin:10px;
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+}
+.div8 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div9 {
+    border-radius: 10px;
+    margin:10px;
+    width: 210px;
+    height: 150px;
+    overflow: hidden;
+}
+.div9 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div10 {
+    border-radius: 10px;
+    margin:10px;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+.div10 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div11{
+    /* padding:10px; */
+    border-radius: 10px;
+    margin:10px;
+    width: 154px;
+    height: 150px;
+    overflow: hidden;
+    /* margin-left:10%; */
+}
+.div11 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div12 {
+    border-radius: 10px;
+    margin:10px;
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+}
+.div12 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div13 {
+    border-radius: 10px;
+    margin:10px;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+.div13 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div14 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div15 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div16{
+    border-radius: 10px;
+    margin:10px;
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+}
+.div16 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div17 {
+    border-radius: 10px;
+    /* margin:10px; */
+    margin-top: 10px;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+.div17 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div18 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div19 {
+    border-radius: 10px;
+    margin:10px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+.div19 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.div20 {
+    border-radius: 10px;
+    margin:10px;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+.div20 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
